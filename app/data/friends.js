@@ -1,4 +1,4 @@
-var friends = [{
+var friendsJson = [{
 
 	name: "Anthony",
 	photo: "",
@@ -33,4 +33,4 @@ var friends = [{
 	scores: [3,2,4,2,1,4,3,2,3,3]
 }];
 
-module.exports = friends;
+module.exports = friendsJson;

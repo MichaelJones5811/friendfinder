@@ -258,7 +258,7 @@
             (!isNaN(item8)) && (!isNaN(item9)) && (!isNaN(item10))
         ) {
             // Grab the URL of the website
-            var currentURL = window.location.origin;
+           var currentURL = window.location.origin;
             // AJAX post the data to the friends API. 
             $.post(currentURL + "/api/friends", userData, function(data) {
             		// If the data has a match, then show this
@@ -281,7 +281,7 @@
             $('.modal').modal('toggle');
         }
     });
-    $('#friend-form').reset();
+   // $('#friend-form').reset();
     </script>
 </body>
 
